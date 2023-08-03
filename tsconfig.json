@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",        /* Specify ECMAScript target version */
+    "module": "ESNext",      /* Specify module system (CommonJS for Node.js) */
+    "outDir": "./dist",        /* Output directory for compiled JavaScript files */
+    "rootDir": "./src",        /* Root directory for TypeScript source files */
+    "moduleResolution":"Node",
+    "strict": true,         /* Enable strict type-checking */
+    "esModuleInterop": true,   /* Enable compatibility with CommonJS modules */
+    "resolveJsonModule": true, /* Allow importing JSON files as modules */
+    "declaration": true,      /* Generate declaration files (*.d.ts) */
+    "sourceMap": true          /* Generate source maps for better debugging */
+  },
+  "include": [
+    "src/**/*.ts"             /* Specify the folders and files to include for compilation */
+  ],
+  "exclude": [
+    "node_modules",           /* Exclude the node_modules folder from compilation */
+    "**/*.spec.ts"            /* Exclude test files from compilation (optional) */
+  ]
+}
